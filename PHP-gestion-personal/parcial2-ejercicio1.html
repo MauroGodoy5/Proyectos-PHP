@@ -1,0 +1,43 @@
+<html>
+<Title> Altas de Personas </Title>
+<Body>
+    <h1>Menu de opciones</h1>
+1 - <a href="parcial2-listados.php">Listado del personal y total del sueldo de la empresa</a><br>
+2 - <a href="modificacionsueldo.html">Modificacion de  sueldo</a><br>
+3 - <a href="consultadepartamento.html">consulta por departamento</a><br>
+<H2> Agregar Datos Personales </H2>
+<Hr> <Br>
+<Form name="Alta" action="parcial2altaregistro.php"
+method="post">
+<Table Border="3" align="Center">
+<TR>
+<TD Align="Center" width="20%">Legajo:
+<TD><Input Type="Text" name="legajo" size=60>
+</TR>
+<TR>
+<TD Align="Center">Nombre:
+<TD><Input Type="Text" name="nombre" size=60>
+</TR>
+<TR>
+<TD Align="Center">Departamento:
+<TD><select name="departamento">
+    <option value="Departamento de comercializacion">Departamento de comercializacion</option>
+    <option value="Departamento de ventas">Departamento de ventas</option>
+    <option value="Departamento de logistica">Departamento de logistica</option>
+    </select>
+</TR>
+<TR>
+<TD Align="Center">Sueldo:
+<TD><Input Type="Text" name="sueldo" size=60>
+</TR>
+</Table>
+<BR>
+<p Align="Center">
+<Input Type="Submit" name="enviar"
+value="Enviar">
+</Form>
+</Body>
+</Html> 
+
+
+
